@@ -15,7 +15,7 @@ void setup() {
   delay(1000);
   SPI.begin(18, 19, 23, PIN_SS);
   DW1000Ranging.initCommunication(PIN_RST, PIN_SS, PIN_IRQ);
-  DW1000.setAntennaDelay(16550);
+  DW1000.setAntennaDelay(16531);
   DW1000Ranging.attachNewRange(newRange);
   DW1000Ranging.attachNewDevice(newDevice);
   DW1000Ranging.attachInactiveDevice(inactiveDevice);
