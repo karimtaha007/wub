@@ -12,7 +12,7 @@ IN   8 1055  "alsadik_loobyS.cfm"
 FP: 0 : 0 :  : 0
 
 ** End of geometry
-EG: 1 : 0 : 0 :  :  : 1e-07 :  :  :  :  :  :  : 1
+EG: 1 : 0 : 0 :  :  : 1e-06 :  :  :  :  :  :  : 1
 
 ** Solution control
 PS: 0 : 0 : 3 : 1 : 0 : 1
@@ -37,4 +37,4 @@ DA: 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 : 0 :  : 0
 ** End of file
 EN
 
-** CADFEKO Checksum: eac657f0417511267a4e58661dd7574f
+** CADFEKO Checksum: 50fa1105fec52628b38a7d63c22d5bab
