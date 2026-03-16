@@ -11,11 +11,11 @@ void newDevice(DW1000Device* d);
 void inactiveDevice(DW1000Device* d);
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115210);
   delay(1000);
   SPI.begin(18, 19, 23, PIN_SS);
   DW1000Ranging.initCommunication(PIN_RST, PIN_SS, PIN_IRQ);
-  DW1000.setAntennaDelay(16531);
+  DW1000.setAntennaDelay(16520);
   DW1000Ranging.attachNewRange(newRange);
   DW1000Ranging.attachNewDevice(newDevice);
   DW1000Ranging.attachInactiveDevice(inactiveDevice);
